@@ -1,0 +1,21 @@
+{
+  "name": "h-jujun/aliyun-acm",
+  "license": "MIT",
+  "description": "A PHP client for aliyun ACM",
+  "type": "library",
+  "authors": [
+    {
+      "name": "ajun",
+      "email": "a12989@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "guzzlehttp/guzzle": "^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Acm\\": "src/"
+    }
+  }
+}
